@@ -1,0 +1,6 @@
+import random
+numbers = [random.randint(0, 200) for _ in range(10)]
+X = int(input("Введите число X, по которому нужно найти кратные: "))
+multiples_of_X = list(filter(lambda num: num % X == 0, numbers))
+print("Сгенерированные числа:", numbers)
+print(f"Числа, кратные {X}:", multiples_of_X)
