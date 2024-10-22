@@ -1,0 +1,9 @@
+def example(color):
+    if color == "green":
+        return "This is cat"
+    elif color == "grey":
+        return "This is Grey dog"
+    else:
+        return "I don't know"
+what_is_it = example('blue')
+print(what_is_it)
